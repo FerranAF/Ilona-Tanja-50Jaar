@@ -6,17 +6,17 @@
 
 @font-face {
     font-family: balloonParty;
-    src: url(/dist/Assets/fonts/balloon_party/BalloonParty.ttf) format('truetype');
+    src: url(../dist/Assets/fonts/balloon_party/BalloonParty.ttf) format('truetype');
 }
 
 @font-face {
     font-family: handpainted;
-    src: url(/dist/Assets/fonts/shackie_handpainted/ShackieHandpainted.otf) format("truetype");
+    src: url(../dist/Assets/fonts/shackie_handpainted/ShackieHandpainted.otf) format("truetype");
 }
 
 @font-face {
     font-family: partyDay;
-    src: url(/dist/Assets/fonts/party_day/PartyDayDemoRegular.ttf) format("truetype");
+    src: url(../dist/Assets/fonts/party_day/PartyDayDemoRegular.ttf) format("truetype");
 }
 
 p{
