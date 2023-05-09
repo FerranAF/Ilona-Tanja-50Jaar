@@ -24,7 +24,6 @@ p{
 }
 
 .gold {
-    font-size: 5vw;
     text-transform: uppercase;
     line-height:1;
     text-align: center;
@@ -45,6 +44,7 @@ html,body{
     padding: 0;
     background: linear-gradient(#8a8ba2, #65669a);
     background-size: cover;
+    overflow: hidden;
 }
 
 #subject{
