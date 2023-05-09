@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: balloonParty;
+    src: url(/dist/Assets/fonts/balloon_party/BalloonParty.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: handpainted;
+    src: url(/dist/Assets/fonts/shackie_handpainted/ShackieHandpainted.otf) format("truetype");
+}
+
+@font-face {
+    font-family: partyDay;
+    src: url(/dist/Assets/fonts/party_day/PartyDayDemoRegular.ttf) format("truetype");
+}
+
+p{
+    font-family: Verdana, serif;
+}
+
+.gold {
+    font-size: 5vw;
+    text-transform: uppercase;
+    line-height:1;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(186,148,62,1) 0%, rgba(236,172,32,1) 20%, rgb(186, 148, 62) 39%, rgba(249,244,180,1) 50%, rgba(186,148,62,1) 60%, rgba(236,172,32,1) 80%, rgba(186,148,62,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite;
+    background-size: 200%;
+}
+@keyframes shine {
+    to{background-position: right}
+
+}
+
+html,body{
+    height: 105%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#8a8ba2, #65669a);
+    background-size: cover;
+}
+
+#subject{
+    font-family: balloonParty, serif;
+}
+
+#jaar{
+    font-family: partyDay, serif;
+
+}
+
+.handpainted{
+    font-family: handpainted, serif;
+}
